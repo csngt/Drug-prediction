@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Drug Detection System</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap">
+</head>
+<body>
+
+<!-- Floating decorative icons -->
+<div class="floating-icon icon1">💊</div>
+<div class="floating-icon icon2">🧪</div>
+<div class="floating-icon icon3">⚗️</div>
+
+<div class="container">
+    <h1>🔍 Drug Detection System</h1>
+
+    <p class="subtitle">Enter a chemical name or formula to check if it's a valid drug</p>
+
+    <input type="text" id="formula" placeholder="Eg: Paracetamol, C8H9NO2">
+
+    <button onclick="detectDrug()">Detect Drug</button>
+
+    <div id="result" class="result-box">
+        <!-- Output appears here -->
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
